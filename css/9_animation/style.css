@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.mt-3{
+    margin:3%;
+}
+
+.box{
+    width:300px;
+    height: 300px;
+    border:2px solid white;
+    background-color:blueviolet;
+    color: white;
+    font-size: 40px;
+    line-height: 50%;
+}
+
+.rotate{
+    animation-name: rotate;
+    animation-duration:2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes rotate{
+    from{
+        rotate:0deg;
+    }
+    to{
+        rotate: 750deg;
+    }
+}
+
+.move{
+    animation: move 8s infinite linear;
+    position: absolute;
+}
+
+@keyframes move{
+ from{
+    left: 0%;
+
+ }
+ to{
+    right: 30%;
+ }
+}
+
+.moving{
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+@keyframes moving{
+    0%{
+        left: 0%;
+        top: 0%;
+    }
+    25%{
+        left:80% ;
+        top: 0%;
+    }
+    50%{
+        left:80% ;
+        top:50% ;
+    }
+    75%{
+        left:0% ;
+        top: 50%;
+    }
+    100%{
+        left: 0%;
+        top:0% ;
+    }
+}

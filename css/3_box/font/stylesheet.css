@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Fontdiner Swanky';
+    src: url('FontdinerSwanky-Regular.woff2') format('woff2'),
+        url('FontdinerSwanky-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Meddon';
+    src: url('Meddon.woff2') format('woff2'),
+        url('Meddon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jacquard 24';
+    src: url('Jacquard24-Regular.woff2') format('woff2'),
+        url('Jacquard24-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reenie Beanie';
+    src: url('ReenieBeanie.woff2') format('woff2'),
+        url('ReenieBeanie.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik Dirt';
+    src: url('RubikDirt-Regular.woff2') format('woff2'),
+        url('RubikDirt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sevillana';
+    src: url('Sevillana-Regular.woff2') format('woff2'),
+        url('Sevillana-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

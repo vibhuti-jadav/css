@@ -1,0 +1,141 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(116, 96, 70);
+}
+
+.logo h2{
+    font-family: "Space Grotesk", sans-serif;
+    letter-spacing: 2px;
+}
+
+.logo{
+    width: 40px;
+}
+
+.nav{
+   
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links{
+   
+    width: 20%;
+    display: flex;
+    
+}
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
+}
+
+.container2{
+   
+    padding: 20px;
+
+}
+.mainc{
+    max-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    text-align: center; 
+    line-height: 250%;
+    border-radius: 10px;
+}
+.box{
+ 
+   
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ 
+ 
+}
+.box > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.f{
+
+    font-size:  18px;
+
+     font-family: "Sansita", sans-serif;
+     
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2, .box3{
+  
+    padding: 2px;
+}
+
+.box3 > button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding:7px 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.box3 > button:hover{
+        background-color: blueviolet;
+}
+
+.container3{
+
+  
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.box4{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    
+}
+.box5{
+   
+    height: 100%;
+    color:azure;
+ 
+}
+
+.box5 > img{
+    height: 60px;
+    width: 60px;
+   
+}
+
+.b{
+    padding: 10px;
+   
+}
+
+

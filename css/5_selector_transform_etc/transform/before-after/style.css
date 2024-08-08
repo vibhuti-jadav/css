@@ -1,0 +1,21 @@
+ul{
+	list-style:none;
+}
+
+li:before{
+	content:"@";
+	font-size:30px;
+	color:green;
+}
+
+p:after{
+	content:"(*_*)";
+	font-size:20px;
+}
+.box{
+	width:100px;
+	height:100px;
+	background-image:linear-gradient(red,blue,green,yellow);
+	border:1px solid black;
+}
+

@@ -1,0 +1,212 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	
+}
+
+.box{
+	width:100%;
+	height:100px;
+	background-color:gray;
+	border:1px solid black;
+	position:fixed;
+	padding-top:30px;
+	
+	
+}
+.logo{
+
+	width:300px;
+	display:inline-block;
+}
+
+
+.h{
+	display:inline-block;
+	width:50%;
+	text-align:center;
+	
+}
+
+.v{
+	display:inline-block;
+
+	width:80%;
+	
+	text-align:end;
+}
+.v a{
+	margin-left:40px;
+	font-size:20px;
+	
+	
+}
+
+
+.box2{
+	width:50%;
+	height:50px;
+
+	position:absolute;
+
+	
+	
+}
+
+.absolute{
+	position:absolute;
+	top:15%;
+	right:50%;
+	
+}
+.k{
+	color:sandybrown;
+}
+
+.container{
+	width:400px;
+	height:400px;
+	background-image:url(https://img.freepik.com/free-photo/delicious-burger-with-many-ingredients-isolated-white-background-tasty-cheeseburger-splash-sauce_90220-1266.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1722124800&semt=sph);
+	background-size:cover;
+	border-radius:44% 56% 66% 34% / 59% 47% 53% 41% ;
+
+	
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	position:absolute;
+	top:25%;
+	
+	
+}
+
+.container2{
+	width:400px;
+	height:400px;
+	background-image:url(https://img.freepik.com/premium-photo/hamburger-with-flying-ingredients-white-background_787273-480.jpg);
+	background-size:cover;
+	border-radius:36% 64% 44% 56% / 50% 37% 63% 50% ;
+	
+	
+	position:absolute;
+	left:25%;
+	top:25%;
+	
+	
+}
+.container3{
+	width:400px;
+	height:400px;
+	background-image:url(https://www.modernhoney.com/wp-content/uploads/2022/05/Double-Double-Cheeseburger-with-Fries-Recipe-scaled.jpg);
+	background-size:cover;
+	border-radius:37% 63% 32% 68% / 62% 40% 60% 38%  ;
+
+   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+	position:absolute;
+	left:50%;
+	top:25%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	
+}
+
+.box3{
+	width:50%;
+	height:50px;
+
+	position:absolute;
+	top:80%;
+	
+}
+
+.container4{
+	width:400px;
+	height:400px;
+	background-image:url(https://images.ctfassets.net/j8tkpy1gjhi5/5OvVmigx6VIUsyoKz1EHUs/b8173b7dcfbd6da341ce11bcebfa86ea/Salami-pizza-hero.jpg?w=768&q=90&fm=webp);
+	background-size:cover;
+	border-radius:40px;
+	
+
+	position:absolute;
+	top:90%;
+
+	
+	
+}
+
+.container5{
+	width:400px;
+	height:400px;
+	background-image:url(https://rppizzeria.com/web/image/product.template/227/image_1024?unique=4817f09);
+	background-size:cover;
+	border-radius:20px;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+	position:absolute;
+	top:90%;
+	left:25%;
+
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	
+}
+
+.container6{
+	width:400px;
+	height:400px;
+	background-image:url(https://i.ytimg.com/vi/eD2GEGjrCjI/maxresdefault.jpg);
+	background-size:cover;
+     border-radius:20px;   
+
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+	 position:absolute;
+	 top:90%;
+	 left:50%;
+
+	
+}
+
+.box4{
+	width:50%;
+	height:50px;
+
+	position:absolute;
+	top:138%;
+
+	
+}
+
+.container7{
+	width:400px;
+	height:400px;
+	background-size:cover;
+     border-radius:20px;   
+
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+	 position:absolute;
+	 top:150%;
+
+	
+	
+}
+
+.effect:hover{
+	background-image:url(https://www.sargento.com/assets/Uploads/Recipe/Image/Sargento11501__FillWzExNzAsNTgzXQ.jpg);
+}
+
+.container8{
+	width:400px;
+	height:400px;
+	background-size:cover;
+     border-radius:20px;   
+
+     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+	 position:absolute;
+	 top:150%;
+	 left:25%;
+	 border-radius:43% 57% 64% 36% / 50% 48% 52% 50% ;
+
+	
+	
+}
+
+.effect2:hover{
+	background-image:url(https://teakandthyme.com/wp-content/uploads/2023/07/oreo-ice-cream-sandwiches-DSC_4799-1x1-1200.jpg);
+}

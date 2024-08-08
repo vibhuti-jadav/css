@@ -1,0 +1,61 @@
+.container{
+	width:20%;
+	height:100px;
+	border:2px solid black;
+	background-color:sandybrown;
+	
+	
+}
+
+.container:hover{
+		width:600px;
+		transition-property:width;
+	    transition-duration:1s;
+}
+
+.box{
+	width:100px;
+	height:100px;
+	border:1px solid black;
+	background-color:gray;
+}
+
+.box:hover{
+	rotate:360deg;
+	transition-duration:1s;
+}
+
+button{
+	width:10%;
+	height:40px;
+	border:2px solid black;
+	background-color:purple;
+}
+
+button:hover{
+	width:600px;
+	height:100px;
+	transition-property:width;
+	transition-duration:1s;
+}
+
+input{
+	width:10%;
+	height:40px;
+	border:2px solid black;
+	
+}
+
+input:hover{
+	width:600px;
+	
+	transition-property:width;
+	transition-duration:1s;
+
+	transition-delay:1s;
+	transition-timing-function: ease-in-out;
+}
+
+
+
+	

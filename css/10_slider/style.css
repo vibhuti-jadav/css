@@ -1,0 +1,110 @@
+.container{
+    height: 50vh;
+    max-width: 1000px;
+    margin: auto;
+
+    border: 10px groove grey;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    
+}
+
+.slider{
+    width: 4000px;
+    display: flex;
+    height: 100%;
+    animation: slider 16s  ease-in-out infinite;
+}
+@keyframes slider{
+    0%{
+        margin-left: 0px;
+    }
+    25%{
+        margin-left:-1000px;
+    }
+    50%{
+        margin-left:-2000px;
+    }
+    75%{
+        margin-left:-3000px;
+    }
+    100%{
+        margin-left:0px;
+    }
+}
+
+.box{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-red{
+    background-image:url(https://plus.unsplash.com/premium_photo-1675518474491-a8264226b389?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sb3J8ZW58MHx8MHx8fDA%3D);
+}
+.bg-orange{
+    background-image: url(https://i.pinimg.com/1200x/0e/aa/de/0eaade8418d95807964d559b1e081cfc.jpg);
+}
+.bg-blue{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/517/419/large_2x/happy-holi-wallpaper-colorful-background-for-holi-color-festival-photo.jpg);
+}
+.bg-green{
+    background-image: url(https://images.picxy.com/cache/2021/2/28/0462666675e2b4e00e063f7c18e9bf1b.jpg);
+}
+
+.link{
+
+    padding: 2px;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        position: relative;
+        top:550px;
+    }
+
+    .links > a{
+
+        padding: 10px;
+        border-radius:20px ;
+        background-color: black;
+    }
+    
+    
+    
+.sliding{
+    width: 2000px;
+    display: flex;
+    height: 100%;
+    animation: sliding 8s linear infinite;
+}
+@keyframes sliding{
+    from{
+        margin-left:-1000px;
+    }
+    to{
+        margin-left:0px;
+    }
+}
+.mt-10{
+    margin-top: 100px;
+}
+
+.box{
+    padding: 10px;
+}
+
+.box img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+   
+}
+.h{
+    height: 25vh !important;
+}
+.border-none{
+    border: none !important;
+}

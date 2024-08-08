@@ -1,0 +1,38 @@
+p{
+	color:green;
+	font-size:20px;
+	text-decoration:underline;
+	text-align:center;
+	font-family:arial;
+	font-weight:300;
+	line-height:40px;
+	letter-spacing:10;
+	word-spacing:10;
+	text-transform:uppercase;
+}
+
+.cl{
+	color:gray;
+	font-size:20px;
+	text-decoration:underline;
+	text-align:center;
+	font-family:arial;
+	font-weight:300;
+	line-height:40px;
+	letter-spacing:10;
+	word-spacing:10;
+	text-transform:capitalize;
+}
+
+#d{
+	color:aqua;
+	font-size:20px;
+	text-decoration:underline;
+	text-align:center;
+	font-family:arial;
+	font-weight:300;
+	line-height:40px;
+	letter-spacing:10;
+	word-spacing:10;
+	text-transform:uppercase;
+}
